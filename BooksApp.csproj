@@ -1,0 +1,142 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\Bookify.Web.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\Bookify.Web.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\Bookify.Web.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\Bookify.Web.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\BooksApp.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\BooksApp.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\BooksApp.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Bookify.Web.csproj.nuget.dgspec.json" />
+    <Content Include="obj\BooksApp.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0\Bookify.Web.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\BooksApp.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\project.razor.json" />
+    <Content Include="obj\Debug\net6.0\project.razor.vs.json" />
+    <Content Include="obj\Debug\net6.0\scopedcss\bundle\Bookify.Web.styles.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\bundle\BooksApp.styles.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\projectbundle\Bookify.Web.bundle.scp.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\projectbundle\BooksApp.bundle.scp.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.development.json" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.pack.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="Properties\serviceDependencies.json" />
+    <Content Include="Properties\serviceDependencies.local.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Bookify.Web.csproj" />
+    <None Include="Bookify.Web.csproj.user" />
+    <None Include="obj\Bookify.Web.csproj.nuget.g.props" />
+    <None Include="obj\Bookify.Web.csproj.nuget.g.targets" />
+    <None Include="obj\BooksApp.csproj.nuget.g.props" />
+    <None Include="obj\BooksApp.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.assets.cache" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.dll" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.pdb" />
+    <None Include="obj\Debug\net6.0\Bookify.Web.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.assets.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\BooksApp.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\BooksApp.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.dll" />
+    <None Include="obj\Debug\net6.0\BooksApp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\BooksApp.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\BooksApp.pdb" />
+    <None Include="obj\Debug\net6.0\BooksApp.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\refint\Bookify.Web.dll" />
+    <None Include="obj\Debug\net6.0\refint\BooksApp.dll" />
+    <None Include="obj\Debug\net6.0\ref\Bookify.Web.dll" />
+    <None Include="obj\Debug\net6.0\ref\BooksApp.dll" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.Bookify.Web.Microsoft.AspNetCore.StaticWebAssets.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.build.Bookify.Web.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Bookify.Web.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Bookify.Web.props" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\staticwebassets.pack.sentinel" />
+    <None Include="Properties\serviceDependencies.local.json.user" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\users\" />
+  </ItemGroup>
+
+</Project>
